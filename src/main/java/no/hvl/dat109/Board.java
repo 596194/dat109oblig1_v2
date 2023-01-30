@@ -15,10 +15,10 @@ public class Board {
         Tile tile = null;
         for (Integer pos = 0; pos < NUMBER_OF_TILES; pos++) {
             if (pos == START_TILE) {
-                tile = new StartTile();
+                tile = new StartTile(pos);
             }
             else if (pos == FINISH_TILE) {
-                tile = new FinishTile();
+                tile = new FinishTile(pos);
             }
 //            else if (pos == snakes and ladders) {
 //                tile = new snake or ladder tile();
@@ -28,6 +28,7 @@ public class Board {
             }
             tiles.add(tile);
         }
+        System.out.println(tiles.toString());
     }
 
 
@@ -35,6 +36,7 @@ public class Board {
         int index=tiles.indexOf(tile);
         int newIndex=(index+sum)%NUMBER_OF_TILES;
 
+        System.out.println(tiles.get(newIndex));
         return tiles.get(newIndex);
     }
 //

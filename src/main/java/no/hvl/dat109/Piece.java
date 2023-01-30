@@ -6,9 +6,9 @@ public class Piece {
 
     public Piece(){}
 
-    public Piece(String colour, Tile tile) {
+    public Piece(String colour) {
         this.colour = colour;
-        this.tile = tile;
+//        this.tile = tile;
     }
 
 
@@ -29,5 +29,11 @@ public class Piece {
         this.tile = tile;
     }
 
-
+    @Override
+    public String toString() {
+        return "Piece{" +
+                "colour='" + colour + '\'' +
+                ", tile=" + tile +
+                '}';
+    }
 }

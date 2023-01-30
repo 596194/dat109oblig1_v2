@@ -6,12 +6,26 @@ import java.util.Scanner;
 public class LadderGame {
 
     private ArrayList<Player> players;
-    private Dice dice;
     private Board board;
 
-    public void play(){
+    public LadderGame(){
+        players=new ArrayList<>();
         board=new Board();
-        addPlayers();
+
+    }
+
+
+//    public LadderGame(ArrayList<Player> players, Board board){
+//        this.players=players;
+//        this.board=board;
+//    }
+
+
+    public void play(){
+//        board=new Board();
+        players = addPlayers();
+//        board.toString();
+//        players.toString();
 
 
         for (int i=0;i<20;i++){
@@ -27,7 +41,7 @@ public class LadderGame {
 
     public void playRound(){
         for(Player player : players){
-            player.playMove(dice);
+            player.playMove();
         }
 
     }
@@ -47,7 +61,6 @@ public class LadderGame {
             Player player = new Player();
             Scanner scanName = new Scanner(System.in);
             System.out.println("Player name");
-
             player.setName(scanName.nextLine());
 //            players.add(name);
 
@@ -56,8 +69,8 @@ public class LadderGame {
             System.out.println("Choose piece");
             String colour=scanPiece.nextLine();
 
-            Tile tile=new StartTile();
-            Piece piece=new Piece(colour, tile);
+//            Tile tile=new StartTile();
+            Piece piece=new Piece(colour);
             player.setPiece(piece);
 
 //            add player to array
