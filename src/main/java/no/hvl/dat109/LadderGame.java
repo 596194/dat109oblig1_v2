@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class LadderGame {
 
     private ArrayList<Player> players;
-    private Board board;
+    private Board board = new Board();
 
     public LadderGame(){
         players=new ArrayList<>();
-        board=new Board();
+//        board=new Board();
 
     }
 
@@ -41,7 +41,7 @@ public class LadderGame {
 
     public void playRound(){
         for(Player player : players){
-            player.playMove();
+            player.playMove(board);
         }
 
     }

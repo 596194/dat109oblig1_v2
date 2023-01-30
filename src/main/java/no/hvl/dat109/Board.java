@@ -34,9 +34,10 @@ public class Board {
 
     public Tile move(Tile tile, Integer sum){
         int index=tiles.indexOf(tile);
-        int newIndex=(index+sum)%NUMBER_OF_TILES;
+        int newIndex=(index+sum);
+//        new index .set
 
-        System.out.println(tiles.get(newIndex));
+        System.out.println("landing on tile: " + (newIndex+1));
         return tiles.get(newIndex);
     }
 //
@@ -48,3 +49,21 @@ public class Board {
 //              new tile=100-(diceResult-100+oldTile);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@ public class Piece {
     private String colour;
     private Tile tile;
 
-    public Piece(){}
+//    public Piece(){}
 
     public Piece(String colour) {
         this.colour = colour;
@@ -13,13 +13,13 @@ public class Piece {
 
 
 
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
+//    public String getColour() {
+//        return colour;
+//    }
+//
+//    public void setColour(String colour) {
+//        this.colour = colour;
+//    }
 
     public Tile getTile() {
         return tile;

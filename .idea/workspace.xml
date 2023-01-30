@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daae823d-1aff-4830-a673-680a1e1305af" name="Changes" comment="2.1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+    <list default="true" id="daae823d-1aff-4830-a673-680a1e1305af" name="Changes" comment="2.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/FinishTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/FinishTile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/LadderGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/LadderGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/StartTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/StartTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Tile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,7 @@
       <workItem from="1675073395541" duration="194000" />
       <workItem from="1675073633252" duration="23000" />
       <workItem from="1675073712767" duration="3060000" />
-      <workItem from="1675088557811" duration="6392000" />
+      <workItem from="1675088557811" duration="8108000" />
     </task>
     <task id="LOCAL-00001" summary="oblig1 v2.0">
       <created>1675073273463</created>
@@ -122,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675076007851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2.2">
+      <created>1675101065626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675101065626</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +134,7 @@
     <MESSAGE value="oblig1 v2.0" />
     <MESSAGE value="test" />
     <MESSAGE value="2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.1" />
+    <MESSAGE value="2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2" />
   </component>
 </project>
