@@ -19,12 +19,14 @@ public class Player {
 
     public void playMove(Board board){
         Scanner roll = new Scanner(System.in);
-        System.out.println("Active player is " + name +
+        System.out.println('\n' + "Active player is " + name +
                             ", press enter to roll dice.");
         roll.nextLine();
 
 
         piece.setTile(board.move(piece.getTile(), dice.throwDice()));
+
+
 
 //        Tile newTile = piece.getTile();
 //        newTile=board.move(newTile,dice.throwDice());
@@ -54,9 +56,9 @@ public class Player {
 
     @Override
     public String toString() {
-        return "Player{" +
-                "name='" + name + '\'' +
-                ", piece=" + piece.toString() +
-                '}';
+        return "Player " +
+                name +
+                ", colour: " +
+                piece.getColour().toString();
     }
 }

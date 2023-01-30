@@ -38,6 +38,11 @@ public class Board {
 //        new index .set
 
         System.out.println("landing on tile: " + (newIndex+1));
+
+        if((newIndex+1)==100){
+            System.out.println("landing on tile: " + (newIndex+1) + ". " );
+        }
+
         return tiles.get(newIndex);
     }
 //

@@ -13,9 +13,9 @@ public class Piece {
 
 
 
-//    public String getColour() {
-//        return colour;
-//    }
+    public String getColour() {
+        return colour;
+    }
 //
 //    public void setColour(String colour) {
 //        this.colour = colour;
@@ -31,9 +31,6 @@ public class Piece {
 
     @Override
     public String toString() {
-        return "Piece{" +
-                "colour='" + colour + '\'' +
-                ", tile=" + tile +
-                '}';
+        return "Piece{" + colour;
     }
 }

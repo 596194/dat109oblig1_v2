@@ -7,6 +7,7 @@ public class LadderGame {
 
     private ArrayList<Player> players;
     private Board board = new Board();
+    private boolean won=false;
 
     public LadderGame(){
         players=new ArrayList<>();
@@ -27,10 +28,14 @@ public class LadderGame {
 //        board.toString();
 //        players.toString();
 
-
-        for (int i=0;i<20;i++){
+//        while(won=false){
+//            playRound();
+//        }
+        for(int i=0;i<20;i++){
             playRound();
         }
+
+
         /*
         while(!winner){
             playRound();
@@ -76,11 +81,15 @@ public class LadderGame {
 //            add player to array
             players.add(player);
         }
-        System.out.println(players.toString());
+        System.out.println(players);
         return players;
     }
 
+    public void setWon(boolean won) {
+        this.won = won;
+    }
 
-
-
+    public boolean isWon() {
+        return won;
+    }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daae823d-1aff-4830-a673-680a1e1305af" name="Changes" comment="2.2">
+    <list default="true" id="daae823d-1aff-4830-a673-680a1e1305af" name="Changes" comment="functioning game. no win">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/LadderGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat109/LadderGame.java" afterDir="false" />
@@ -73,7 +73,7 @@
       <workItem from="1675073395541" duration="194000" />
       <workItem from="1675073633252" duration="23000" />
       <workItem from="1675073712767" duration="3060000" />
-      <workItem from="1675088557811" duration="8108000" />
+      <workItem from="1675088557811" duration="11031000" />
     </task>
     <task id="LOCAL-00001" summary="oblig1 v2.0">
       <created>1675073273463</created>
@@ -124,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675101065626</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="functioning game. no win">
+      <created>1675102953333</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675102953333</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="2.1" />
     <MESSAGE value="2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.2" />
+    <MESSAGE value="functioning game. no win" />
+    <option name="LAST_COMMIT_MESSAGE" value="functioning game. no win" />
   </component>
 </project>
