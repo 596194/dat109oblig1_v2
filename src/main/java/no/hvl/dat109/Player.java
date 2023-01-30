@@ -28,6 +28,12 @@ public class Player {
 
 
 
+
+
+
+
+
+
 //        Tile newTile = piece.getTile();
 //        newTile=board.move(newTile,dice.throwDice());
 //

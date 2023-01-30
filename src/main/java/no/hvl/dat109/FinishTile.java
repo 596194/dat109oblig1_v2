@@ -2,7 +2,7 @@ package no.hvl.dat109;
 
 public class FinishTile extends Tile{
 
-    public FinishTile(Integer pos) {
+    public FinishTile() {
     }
 
     /**

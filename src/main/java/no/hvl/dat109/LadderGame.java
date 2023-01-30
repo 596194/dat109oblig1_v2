@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class LadderGame {
 
     private ArrayList<Player> players;
-    private Board board = new Board();
+    private final Board board = new Board();
     private boolean won=false;
 
     public LadderGame(){
@@ -28,12 +28,12 @@ public class LadderGame {
 //        board.toString();
 //        players.toString();
 
-//        while(won=false){
-//            playRound();
-//        }
-        for(int i=0;i<20;i++){
+        while(won == false){
             playRound();
         }
+//        for(int i=0;i<20;i++){
+//            playRound();
+//        }
 
 
         /*
