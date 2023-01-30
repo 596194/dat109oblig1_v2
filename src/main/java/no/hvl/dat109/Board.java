@@ -32,20 +32,10 @@ public class Board {
 
 
     public Tile move(Tile tile, Integer sum){
+        int index=tiles.indexOf(tile);
+        int newIndex=(index+sum)%NUMBER_OF_TILES;
 
-
-//        ad
-
-        Tile newTile=null;
-
-
-
-
-
-
-
-
-        return newTile;
+        return tiles.get(newIndex);
     }
 //
 //

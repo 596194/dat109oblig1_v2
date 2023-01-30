@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class LadderGame {
 
-    private ArrayList<Player> players = new ArrayList<>();
-    private Dice dice = new Dice();
-    private Board board = new Board();
+    private ArrayList<Player> players;
+    private Dice dice;
+    private Board board;
 
     public void play(){
-        Board board=new Board();
+        board=new Board();
         addPlayers();
 
 
