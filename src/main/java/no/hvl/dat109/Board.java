@@ -33,6 +33,9 @@ public class Board {
 
     public Tile move(Tile tile, Integer sum){
 
+
+//        ad
+
         Tile newTile=null;
 
 
