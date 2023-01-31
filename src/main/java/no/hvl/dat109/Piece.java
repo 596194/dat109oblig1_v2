@@ -9,6 +9,7 @@ public class Piece {
     public Piece(String colour) {
         this.colour = colour;
         this.tile = new StartTile();
+
     }
 
 

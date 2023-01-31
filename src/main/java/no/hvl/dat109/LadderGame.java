@@ -28,20 +28,12 @@ public class LadderGame {
 //        board.toString();
 //        players.toString();
 
-        while(won == false){
-            playRound();
-        }
-//        for(int i=0;i<20;i++){
+//        while(won == false){
 //            playRound();
 //        }
-
-
-        /*
-        while(!winner){
+        for(int i=0;i<110;i++){
             playRound();
         }
-
-        */
     }
 
     public void playRound(){
